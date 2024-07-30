@@ -326,10 +326,10 @@ font-family: "Manrope", sans-serif;
     list-style: none;
 }
 .gal_item:first-child{
-    margin: 0 5px;
+    margin-right:  5px;
 }
 .gal_item:last-child{
-    margin: 0 5px;
+    margin-left: 5px;
 }
 .gal_img{
     width: 100%;
@@ -499,10 +499,10 @@ padding-bottom: 20px;
 
 @keyframes marquee {
     0% {
-        transform: translateX(100%);
+        transform: translateX(90%);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-90%);
     }
 }
 
