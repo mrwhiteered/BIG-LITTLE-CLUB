@@ -1,8 +1,8 @@
 @font-face {
     font-family: "London";
     src:
-      url("/fonts/London.woff2") format("woff2"),
-      url("/fonts/London.woff") format("woff");
+      url("../fonts/London.woff2") format("woff2"),
+      url("../fonts/London.woff") format("woff");
   }
 
   .header{
