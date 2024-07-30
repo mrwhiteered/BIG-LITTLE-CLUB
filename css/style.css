@@ -1,0 +1,546 @@
+@font-face {
+    font-family: "London";
+    src:
+      url("/fonts/London.woff2") format("woff2"),
+      url("/fonts/London.woff") format("woff");
+  }
+
+  .header{
+   
+  }
+ 
+
+  .wrapper_header {
+    display: flex;
+    justify-content: space-between; /* Распределяет элементы по горизонтали */
+    align-items: center; /* Выравнивает элементы по вертикали */
+    padding: 10px 20px; /* Отступы вокруг элементов внутри header */
+    background-color: #f8f9fa; /* Фоновый цвет для header */
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-family: "London";
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+
+    margin: 0 20px;
+}
+
+.title {
+    margin: 0 auto; /* Центрирует заголовок по горизонтали */
+}
+
+.telega__wrapper {
+    display: flex;
+    justify-content: flex-end; /* Выравнивает картинку по правому краю */
+}
+
+.img_telega {
+    max-width: 100%; /* Адаптивный размер картинки */
+    height: auto;
+}
+body{
+   
+    margin: 0 auto;
+}
+.line{
+    width: 100%;
+    height: 7px;
+    background-color: #FD7E08;
+}
+.first_img{
+    width: 100%; /* Адаптивный размер картинки */
+    height: auto;
+}
+.first__wrapper{
+    position: relative;
+}
+.wrap_anons{
+    position: absolute; /* Абсолютное позиционирование текста относительно родительского элемента */
+    top: 50%; /* Центрирует текст по вертикали */
+    left: 50%; /* Центрирует текст по горизонтали */
+    transform: translate(-50%, -50%); 
+    width: 100%;
+}
+.anons{ 
+   
+/* Используется для точного центрирования */
+    color: #E0EBDB; /* Цвет текста */
+    font-size: 64px; /* Размер текста */
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: "Livvic", sans-serif;
+    width: 100%;
+}
+.anons_sub{
+  /* Используется для точного центрирования */
+    color: #E0EBDB; /* Цвет текста */
+    font-size: 48px; /* Размер текста */
+    text-align: center;
+    margin-top: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.button_join{
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    color: #FD7E08 ;
+    font-size:35px ;
+    background: none;
+    border: solid #FD7E08 4px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50px;
+    padding: 10px  20px ;
+    margin-top: 50px;
+    transition: .7s ;
+}
+.button_join:hover{
+    background: #FD7E08;
+    color: white;
+    transition: .7s ;
+}
+.augost_wrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.augost_text{
+    max-width: 575px;
+    font-size:20px ;
+    font-family: "Manrope", sans-serif;
+}
+.title_augost{
+    transform: rotate(-90deg);
+    font-family: "Livvic", sans-serif;
+    color: #FD7E08;
+    font-weight: bold;
+    font-size: 150px;
+    margin: 0;
+}
+.augost{
+    padding-top: 72px;
+    padding-bottom: 100px;
+}
+.text_1{
+    font-weight: bold;
+}
+.green{
+    color: #145105;
+    font-weight: bold;
+}
+.img_third{
+    width: 100%;
+}
+.third{
+    padding-bottom: 120px;
+}
+.four_wrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+    align-items: center;
+}
+.flovers{
+    transform: rotate(-90deg);
+    font-family: "Livvic", sans-serif;
+    color: #145105;
+    font-weight: bold;
+    font-size: 150px;
+}
+.text_four{
+    max-width: 426px;
+    font-size:20px ;
+    font-family: "Manrope", sans-serif;
+}
+.text_1_four{
+    font-weight: bold;
+}
+.four{
+    padding-bottom: 120px;
+}
+.gallery{
+    display: block;
+    margin: 0 auto;
+}
+.gallery_wrap{
+    padding-bottom: 120px;
+}
+.eat_wrap{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+}
+.title_eat{
+    transform: rotate(-90deg);
+    font-family: "Livvic", sans-serif;
+    color: #FD7E08;
+    font-weight: bold;
+    font-size: 150px;
+    margin: 0;
+   ;
+    
+     
+}
+.text_eat{
+    width: 579px;
+    font-size:20px ;
+    font-family: "Manrope", sans-serif;
+}
+.contact{
+    padding-top: 120px;
+}
+.contact_title{
+    font-family: "Manrope", sans-serif;
+    color: #145105;
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 572px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact_yan{
+    margin: 0 auto;
+    display: block;
+    max-width: 500px;
+}
+.g-box{
+    margin: 0 auto;
+    display: block;
+}
+.footer_run{
+    background: black;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.tetx_footer{
+color: #FFFFFF;
+font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 20px 0 20px;
+}
+.name_footer{
+    font-family: "London";
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 18px;
+    
+}
+.footer_telega{
+    width: auto;
+    height: auto;
+}
+
+.footer_run {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden; /* Убирает элементы, выходящие за пределы контейнера */
+    position: relative; /* Позволяет позиционировать внутренние элементы */
+}
+.bold{
+    font-weight: bold;
+}
+.text_container {
+    display: flex;
+    align-items: center;
+    animation: marquee 17s linear infinite; /* Анимация бегущей строки */
+    white-space: nowrap; /* Предотвращает перенос строки */
+}
+
+.footer_telega {
+    width: auto;
+    height: auto;
+    margin-right: 20px; /* Отступ между изображением и текстом */
+}
+
+.tetx_footer, .name_footer {
+    color: #FFFFFF;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+
+.name_footer {
+    font-family: "London";
+    font-size: 18px;
+}
+.price_img{
+    width: 100%;
+}
+
+.price_title{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 0;
+    padding: 0 25px;
+}
+.price_text{
+    font-family: "Manrope", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.price_list{
+    margin-top: 35px;
+    padding-left: 0;
+    padding: 0 25px;
+}
+.price_text_2{
+    margin-bottom: 0;
+}
+.orange{
+    color: #FD7E08;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.gallery{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.gal_item:first-child{
+    margin: 0 5px;
+}
+.gal_item:last-child{
+    margin: 0 5px;
+}
+.gal_img{
+    width: 100%;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(200%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+@media screen and (max-width:490px) {
+    
+
+.wrapper_header{
+    padding: 10px;
+    margin: 20px;
+}
+
+.wrapper_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* Цвет фона для наглядности */
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 26px;
+}
+
+.telega__wrapper {
+    position: absolute;
+    right: 0;
+    margin-right: 20px; /* Отступ от правого края, если нужно */
+}
+.img_telega{
+    width: 30px;
+}
+.line{
+    height: 3px;
+}
+.anons{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.anons_sub{
+    font-size: 22px;
+}
+.button_join{
+    margin-top: 20px;
+    font-size: 18px;
+    border: solid #FD7E08 2px ;
+    padding: 6px 14px;
+}
+
+/* Родительский контейнер */
+.augost_wrap {
+    position: relative; /* Позволяет дочерним элементам использовать абсолютное позиционирование */
+    display: flex; /* Используем Flexbox для центрирования текста по высоте */
+    align-items: center; /* Центрирование по высоте контейнера */
+padding: 20px 0px;
+}
+
+/* Позиционирование элемента "август" */
+.title_augost {
+    font-size: 80px;
+    z-index: 999;
+    position: absolute; /* Абсолютное позиционирование относительно родительского контейнера */
+    left: 30px;
+        top: 80%; /* Центрируем по высоте контейнера */
+    transform: translateY(-50%) rotate(-90deg); /* Перемещение вверх на 50% высоты и поворот */
+    transform-origin: left center; /* Устанавливаем точку вращения */
+    white-space: nowrap; /* Запрещает перенос текста */
+}
+
+/* Стиль для текста */
+.augost_text {
+    margin-left: 100px; /* Отступ слева для размещения текста справа от "август" */
+    font-size: 16px;
+    background: transparent;
+    max-width: 300px; /* Ограничиваем ширину текста */
+    margin-right: 10PX;
+}
+.augost{
+    padding: 0;
+}
+.four_wrap {
+    position: relative; /* Позволяет дочерним элементам использовать абсолютное позиционирование */
+    display: flex; /* Используем Flexbox для размещения элементов */
+    align-items: center; /* Центрируем элементы по высоте контейнера */
+    padding: 20px 0; /* Отступы сверху и снизу */
+    width: 100%;
+}
+
+.text_four {
+    margin-right: 120px; /* Отступ справа для размещения текста до элемента "цветы" */
+    font-size: 16px;
+    background: transparent;
+    
+    margin-left: 20px;
+}
+
+.flovers {
+    font-size: 80px;
+    position: absolute; /* Абсолютное позиционирование относительно родительского контейнера */
+    right: -50px; /* Прижимаем к правому краю контейнера */
+    top: 50%; /* Центрируем по высоте контейнера */
+    transform: translateY(-50%) rotate(-90deg); /* Перемещение вверх на 50% высоты и поворот */
+    transform-origin: center center; /* Устанавливаем точку вращения в центр элемента */
+    white-space: nowrap; /* Запрещает перенос текста */
+    margin: 0; /* Убираем стандартные отступы */
+}
+
+
+.third{
+    padding-bottom: 20px;
+}
+.four{
+
+padding-bottom: 20px;
+}
+
+.eat_wrap{
+    position: relative; /* Позволяет дочерним элементам использовать абсолютное позиционирование */
+    display: flex; /* Используем Flexbox для центрирования текста по высоте */
+    align-items: center; /* Центрирование по высоте контейнера */
+    padding: 20px 0px;
+}
+.title_eat{
+    font-size: 80px;
+    z-index: 999;
+    position: absolute; /* Абсолютное позиционирование относительно родительского контейнера */
+    left: 30px;
+        top: 85%; /* Центрируем по высоте контейнера */
+    transform: translateY(-30%) rotate(-90deg); /* Перемещение вверх на 50% высоты и поворот */
+    transform-origin: left center; /* Устанавливаем точку вращения */
+    white-space: nowrap; /* Убираем стандартные отступы */ /* Убираем стандартные отступы */
+}
+.text_eat{
+    margin-left: 100px; /* Отступ слева для размещения текста справа от "август" */
+    font-size: 16px;
+    background: transparent;
+    
+    margin-right: 10PX;
+    text-align: left;
+}
+
+.four{
+    padding-bottom: 0;
+}
+
+.contact_title{
+    font-size: 30px;
+}
+.contact{
+    padding-top: 20px;
+}
+.gallery_wrap{
+    padding-bottom: 20px;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.text_container {
+    display: flex;
+    align-items: center;
+    animation: marquee 13s linear infinite; /* Анимация бегущей строки */
+    white-space: nowrap; /* Предотвращает перенос строки */
+}
+
+.footer_telega {
+    width: auto;
+    height: auto;
+    margin-right: 10px; /* Отступ между изображением и текстом */
+}
+
+.tetx_footer, .name_footer {
+    color: #FFFFFF;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 10px;
+}
+
+.name_footer {
+    font-family: "London";
+    font-size: 18px;
+}
+
+.Footer_iframe{
+    display: none;
+}
+
+
+.contact_title{
+    margin: 0 auto;
+    display: block;
+    padding: 0 10px;
+}
+.gallery{
+    width: 100%;
+}
+
+}
