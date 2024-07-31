@@ -348,7 +348,7 @@ font-family: "Manrope", sans-serif;
 
 .wrapper_header{
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .wrapper_header {
@@ -363,7 +363,7 @@ font-family: "Manrope", sans-serif;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .telega__wrapper {
