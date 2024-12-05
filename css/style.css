@@ -15,7 +15,7 @@
     justify-content: space-between; /* Распределяет элементы по горизонтали */
     align-items: center; /* Выравнивает элементы по вертикали */
     padding: 10px 20px; /* Отступы вокруг элементов внутри header */
-    background-color: white; /* Фоновый цвет для header */
+     /* Фоновый цвет для header */
     padding-bottom: 40px;
     padding-top: 40px;
     font-family: "London";
@@ -41,19 +41,19 @@
     height: auto;
 }
 body{
-   
+   background-color: #126538;
     margin: 0 auto;
 }
 .line{
     width: 100%;
     height: 7px;
-    background-color: #FD7E08;
+    background-color: #C1FAA8;
 }
 .link_to_contact{
     text-decoration: none;
 }
 .first_img{
-    width: 100%; /* Адаптивный размер картинки */
+    width: 100%; /* Адаптивный размер картинC1FAA8ки */
     height: auto;
 }
 .first__wrapper{
@@ -209,14 +209,14 @@ body{
     color: #145105;
     font-size: 32px;
     font-weight: bold;
-    max-width: 572px;
+    max-width: 554px;
     margin: 0 auto;
     text-align: center;
 }
 .contact_yan{
     margin: 0 auto;
     display: block;
-    max-width: 500px;
+    max-width: 360px;
 }
 .g-box{
     margin: 0 auto;
@@ -249,7 +249,7 @@ font-family: "Manrope", sans-serif;
 }
 
 .footer_run {
-    background: black;
+    background: #862006;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -322,7 +322,7 @@ font-family: "Manrope", sans-serif;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
 }
 .gal_item:first-child{
@@ -520,7 +520,7 @@ padding-bottom: 20px;
 }
 
 .tetx_footer, .name_footer {
-    color: #FFFFFF;
+    color: #E0EBDB;
     font-family: "Manrope", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -545,5 +545,294 @@ padding-bottom: 20px;
 .gallery{
     width: 100%;
 }
+
+}
+
+.cartoch{
+    display: block;
+    margin: 0  auto;
+    width: 200px;
+    margin-top: 40px;
+}
+.img_cartoch{
+    width: auto;
+}
+.hn_title{
+    margin: 0;
+    margin-top: -50px;
+    text-align: center;
+        font-family: "Ole", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 300px;
+    color: #E0EBDB;
+      
+}
+.hn_sub_title{
+    font-family: "Manrope", sans-serif;
+    color: #E0EBDB;
+    font-size: 20px;
+    max-width: 734px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hn_red{
+    color:#862006;
+}
+
+.hn_button{
+    display: block;
+    color: #E0EBDB;
+    border-radius: 50px;
+    background: transparent;
+    border: solid #E0EBDB 3px ;
+    font-size: 20px;
+    font-family: "Manrope", sans-serif;
+    padding:5px 10px;
+    margin: 50px auto 0 auto;
+    transition: 0.5s;
+}
+.hn_button:hover{
+    color:#C1FAA8;
+    border: solid #C1FAA8 3px ;
+    transition: 0.5s;
+}
+.hw_link{
+    text-decoration: none;
+}
+.hn_about{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.distance{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.hn_wrap_about{
+    max-width: 300px;
+    
+}
+.text_1_hn{
+    font-size: 20px;
+    color: #E0EBDB;
+    font-family: "Manrope", sans-serif;
+}
+.hn_title_about{
+    font-size: 50px;
+    color: #C1FAA8;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+}
+.hn_text_about{
+    max-width: 570px;
+}
+.hn_prog_wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hn_prog_list{
+    max-width: 558px;
+    font-size: 20px;
+    
+}
+.hn_prog_item{
+    color: #E0EBDB;
+    font-family: "Manrope", sans-serif;;
+}
+.hn_prog_title{
+    font-size: 50px;
+    color: #C1FAA8;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+    margin-top: 0;
+}
+.hn_program{
+    margin-bottom: 100px;
+}
+.contact_title{
+    font-family: "Manrope", sans-serif;
+    color: #C1FAA8;
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hw_p{
+    margin-top: 100px;
+}
+.lime{
+    font-size: 20px;
+    font-weight: 700;
+    color: #C1FAA8;
+    font-family: "Manrope", sans-serif;
+    
+}
+.hw_p p{
+    font-size: 20px;
+    color: #E0EBDB;
+    font-family: "Manrope", sans-serif;
+}
+.when{
+    font-size: 20px;
+    color: #E0EBDB;
+    font-family: "Manrope", sans-serif;
+}
+.where{
+    font-size: 20px;
+    color: #E0EBDB;
+    font-family: "Manrope", sans-serif;
+}
+.hw_Price_wrap{
+    max-width: 554px;
+    display: block;
+    margin: 0 auto;
+}
+.cost{
+    margin: 0;
+}
+.tarif{
+    margin: 0;
+}
+.tarif_2_sub{
+    margin: 0;
+    padding-left: 20px;
+}
+.tarif_3_sub{
+  margin: 0;
+  padding-left: 20px;
+}
+.gallery_tele{
+    display: none;
+}
+
+@media screen and (max-width:490px) {
+    .img_cartoch{
+        width: 100%;
+    }
+    .cartoch{
+        width: 100px;
+    }
+    .hn_title{
+        font-size: 140px;
+        line-height: 100px;
+        margin: 0;
+    }
+    .hn_sub_title{
+        font-size: 16px;
+        max-width: 360px;
+        font-weight: 300;
+        margin-top: 20px;
+        margin: 20px 20px 0 20px ;
+    }
+    .hn_red{
+        font-weight: 600;
+    }
+    .hn_button{
+        color: #C1FAA8;
+       font-size: 16px;
+        border:2px solid #C1FAA8;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    .gallery_tele{
+        display: block;
+        max-width: 175px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .gal_item{
+        
+    }
+    .distance{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 30px;
+    }
+    .hn_title_about{
+     text-align: left;
+     font-size: 20px;
+     margin-bottom: 0;
+    }
+    .br_t{
+        display: none;
+    }
+    .text_1_hn{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .hn_about{
+        margin-bottom: 30px;
+    }
+    .gal_del_t{
+        display: none;
+    }
+    .gal_item{
+        max-width: 175px;
+        margin: 0;
+    }
+    .gallery{
+        justify-content: space-around;
+    }
+    .gal_item:first-child{
+        margin: 0;
+    }
+    .gal_item:last-child{
+        margin: 0;
+    }
+    .hn_prog_wrap{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin: 0 30px;
+    }
+    .hn_prog_title{
+        font-size: 20px;
+        text-align: left;
+    }
+    .hn_prog_item{
+        font-size: 16px;
+        padding: 0;
+    }
+    .hn_prog_list{
+        padding-left: 20px;
+        margin: 0;
+    }
+    .hn_about{
+        margin-top: 30px;
+    }
+    .hn_program{
+        margin-bottom: 30px;
+    }
+    .hw_p{
+        margin-top: 30px;
+    }
+    .hw_Price_wrap{
+        margin: 0 20px;
+        
+    }
+    .hw_Price_wrap p {
+        font-size: 16px;
+    }
+    .lime{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .where{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contact{
+        padding-top: 30px;
+    }
+    .contact_title{
+        font-size: 16px;
+        font-weight: 400px;
+    }
 
 }
