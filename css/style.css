@@ -711,6 +711,12 @@ padding-bottom: 20px;
 .gallery_tele{
     display: none;
 }
+.grenLime{
+    color: #C1FAA8;
+}
+.footer{
+    margin-top: 50px;
+}
 
 @media screen and (max-width:490px) {
     .img_cartoch{
@@ -725,14 +731,14 @@ padding-bottom: 20px;
         margin: 0;
     }
     .hn_sub_title{
-        font-size: 16px;
+        font-size: 15px;
         max-width: 360px;
         font-weight: 300;
         margin-top: 20px;
         margin: 20px 20px 0 20px ;
     }
     .hn_red{
-        font-weight: 600;
+        font-weight: 800;
     }
     .hn_button{
         color: #C1FAA8;
@@ -833,6 +839,9 @@ padding-bottom: 20px;
     .contact_title{
         font-size: 16px;
         font-weight: 400px;
+    }
+    .first{
+        margin-top: 185px;
     }
 
 }
